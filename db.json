@@ -19,17 +19,17 @@
             "JSONLogicError": "There was problem validating your BT TV app version - please try again later"
         },
         "tvOS": {
-            "AppStoreURL": "https://itunes.apple.com/gb/app/bt-tv/id929166502?mt=8",
-            "CurrentVersion": "0.1.0",
-            "MinOSSupported": "17",
+            "AppStoreURL": "https://itunes.apple.com/gb/app/bt-tv/id929166502?mt=4",
+            "CurrentVersion": "0.5.0",
+            "MinOSSupported": "10",
             "UnsupportedDevices": [
-                "tvOS 1.10.2"
+                ""
             ],
             "UnsupportedOSs": [
-                "tvOS 1.10.2"
+                ""
             ],
             "UpdateMandatory": {
-                "Max": "0.2.0",
+                "Max": "0.6.0",
                 "Min": "0.1.0"
             },
             "UpdateReminder": {
