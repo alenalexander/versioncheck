@@ -29,8 +29,8 @@
                 ""
             ],
             "UpdateMandatory": {
-                "Max": "0.5.0",
-                "Min": "0.0.1"
+                "Max": "0.2.0",
+                "Min": "0.1.0"
             },
             "UpdateReminder": {
                 "Max": "0.6.0",
