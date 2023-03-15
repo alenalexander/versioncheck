@@ -23,10 +23,10 @@
             "CurrentVersion": "1.0.0",
             "MinOSSupported": "10",
             "UnsupportedDevices": [
-                "tvOS16.3.2"
+                ""
             ],
             "UnsupportedOSs": [
-                ""
+                "tvOS16.3.2"
             ],
             "UpdateMandatory": {
                 "Max": "1.2.0",
