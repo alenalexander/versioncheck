@@ -20,7 +20,7 @@
         },
         "tvOS": {
             "AppStoreURL": "https://itunes.apple.com/gb/app/bt-tv/id929166502?mt=8",
-            "CurrentVersion": "1.0.0",
+            "CurrentVersion": "1.3.0",
             "MinOSSupported": "10",
             "UnsupportedDevices": [
                 ""
