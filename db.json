@@ -1,43 +1,116 @@
 {
     "contents": {
     "timestamp": 1677766885,
-    "Version": {
-        "ErrorCodes": {
-            "DeviceNotSupported": "Sorry, your device is not supported by the BT TV app (LV001)",
-            "NoUpgrade": "Sorry, your device is not supported by the BT TV app (LV002)",
-            "OSDeprecatedMandatory": "Your Operating System is no longer supported. Please update your Operating System and download the latest version of the BT TV app from the App Store (LV003)",
-            "OSDeprecatedReminder": "Your Operating System is no longer supported. Please consider updating your Operating System and download the latest version of the BT TV app from the App Store (LV004)",
-            "OSNotSupported": "Your OS is not supported by the app (LV005)",
-            "SpecificOSNotSupportedMandatory": "Your Specific Operating System is no longer supported. Please update your Operating System and download the latest version of the BT TV app from the App Store (LV006)",
-            "UpdateMandatory": "An update to the BT TV app is now available in the App Store. Please update to get all the latest improvements and bug fixes. (LV007)",
-            "VersionUpdateReminder": "An update to the BT TV app is now available from the App Store (LV008)",
-            "ErrorConnection": "There was problem validating your BT TV app version - please try again later",
-            "ErrorInvalidJSON": "There was problem validating your BT TV app version - please try again later",
-            "ErrorNoContext": "There was problem validating your BT TV app version - please try again later",
-            "ErrorUnknown": "There was problem validating your BT TV app version - please try again later",
-            "ErrorVersionNumberNotFound": "There was problem validating your BT TV app version - please try again later",
-            "JSONLogicError": "There was problem validating your BT TV app version - please try again later"
-        },
-        "tvOS": {
-            "AppStoreURL": "https://itunes.apple.com/gb/app/bt-tv/id929166502?mt=8",
-            "CurrentVersion": "1.9.0",
-            "MinOSSupported": "10",
-            "UnsupportedDevices": [
-                ""
-            ],
-            "UnsupportedOSs": [
-                ""
-            ],
-            "UpdateMandatory": {
-                "Max": "1.0.0",
-                "Min": "0.5.0"
+	"Version": {
+		"ErrorCodes": {
+			"DeviceNotSupported":
+            {
+                "message" : "Sorry, your device is not supported by the EE TV app (LV001)",
+                "title" : "EETV Alert"
             },
-            "UpdateReminder": {
-                "Max": "1.9.0",
-                "Min": "1.0.0"
+			"NoUpgrade":
+            {
+                "message" : "Sorry, your device is not supported by the EE TV app (LV002)",
+                "title" : "EETV Alert"
+            },
+			"OSDeprecatedMandatory":
+            {
+                "message" : "Your Operating System is no longer supported. Please update your Operating System and download the latest version of the EE TV app from the App Store (LV003)",
+                "title" : "EETV Alert"
+            },
+			"OSDeprecatedReminder":
+            {
+                "message" : "Your Operating System is no longer supported. Please consider updating your Operating System and download the latest version of the EE TV app from the App Store (LV004)",
+                "title" : "EETV Alert"
+            },
+			"OSNotSupported":
+            {
+                "message" : "Your OS is not supported by the app (LV005)",
+                "title" : "EETV Alert"
+            },
+			"SpecificOSNotSupportedMandatory":
+            {
+                "message" : "Your Specific Operating System is no longer supported. Please update your Operating System and download the latest version of the EE TV app from the App Store (LV006)",
+                "title" : "EETV Alert"
+            },
+			"UpdateMandatory":
+            {
+                "message" : "An update to the EE TV app is now available in the App Store. Please update to get all the latest improvements and bug fixes. (LV007)",
+                "title" : "EETV Alert"
+            },
+			"VersionUpdateReminder":
+            {
+                "message" : "An update to the EE TV app is now available from the App Store (LV008)",
+                "title" : "EETV Alert"
+            },
+			"ErrorConnection":
+            {
+                "message" : "There was problem validating your EE TV app version - please try again later",
+                "title" : "EETV Alert"
+            },
+			"ErrorInvalidJSON":
+            {
+                "message" : "There was problem validating your EE TV app version - please try again later",
+                "title" : "EETV Alert"
+            },
+			"ErrorNoContext":
+            {
+                "message" : "There was problem validating your EE TV app version - please try again later",
+                "title" : "EETV Alert"
+            },
+			"ErrorUnknown":
+            {
+                "message" : "There was problem validating your EE TV app version - please try again later",
+                "title" : "EETV Alert"
+            },
+			"ErrorVersionNumberNotFound":
+            {
+                "message" : "There was problem validating your EE TV app version - please try again later",
+                "title" : "EETV Alert"
+            },
+			"JSONLogicError":
+            {
+                "message" : "There was problem validating your EE TV app version - please try again later",
+                "title" : "EETV Alert"
             }
-        }
-    },
-    "version": 5
+		},
+        "actions" : {
+            "force" : [{
+                "action": "APPSTORE",
+                "label": "Go to Appstore"
+            }],
+            "block" : [{
+                "action": "EXIT",
+                "label": "Exit"
+            }],
+            "offer" : [{
+                "action": "OK",
+                "label": "Continue"
+            }, {
+                "action": "APPSTORE",
+                "label": "Go to Appstore"
+            }]
+        },
+		"tvOS": {
+			"AppStoreURL": "https://itunes.apple.com/gb/app/bt-tv/id929166502?mt=8",
+			"CurrentVersion": "0.1.0",
+			"MinOSSupported": "10",
+			"UnsupportedDevices": [
+				""
+			],
+			"UnsupportedOSs": [
+				""
+			],
+			"UpdateMandatory": {
+				"Max": "0.1.0",
+				"Min": "0"
+			},
+			"UpdateReminder": {
+				"Max": "0.1.0",
+				"Min": "0.0.1"
+			}
+		}
+	},
+	"version": 5
     }
 }
